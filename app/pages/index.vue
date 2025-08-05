@@ -19,18 +19,21 @@
 </script>
 
 <template>
-  <UPage v-if="page">
+  <div
+v-if="page"
+class="min-h-screen"
+>
     <LandingHero :page />
-    <UPageSection
-      :ui="{
-        container: '!pt-0 lg:grid lg:grid-cols-2 lg:gap-8'
-      }"
-    >
-      <LandingAbout :page />
-      <LandingWorkExperience :page />
-    </UPageSection>
+    <section class="py-2 sm:py-12">
+      <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="!pt-0 lg:grid lg:grid-cols-2 lg:gap-8">
+          <LandingAbout :page />
+          <LandingWorkExperience :page />
+        </div>
+      </div>
+    </section>
     <LandingBlog :page />
     <LandingTestimonials :page />
     <!-- <LandingFAQ :page /> -->
-  </UPage>
+  </div>
 </template>

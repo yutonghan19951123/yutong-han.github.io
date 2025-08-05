@@ -11,7 +11,7 @@ author:
     alt: Yutong Han
 ---
 
-<div class="grid grid-cols-2 gap-4">
+<div class="grid grid-cols-2 gap-4 mb-8">
   <div class="bg-blue-50 rounded-lg p-4">
     <strong>Client</strong><br>
     Tranalytic Technology Co., Ltd.
@@ -92,7 +92,6 @@ This screen evaluates the effectiveness of the implemented greenwave strategy. W
   <img src="/img/projects/why-greenwave/6.png" class="blog-img-large" alt="img" loading="lazy" />
   <figcaption class="blog-img-caption">UI page 4: Was the traffic diversion successful</figcaption>
 </figure>
-
 
 Through visual counters, real-time charts, and animated flow diagrams, users can clearly see that thousands of vehicles now pass through AB and CD routes during peak hours—proving that the diversion was not just a theory, but a measurable success.
 

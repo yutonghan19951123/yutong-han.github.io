@@ -10,7 +10,8 @@ author:
     src: /img/yutong.jpg
     alt: Yutong Han
 ---
-<div class="grid grid-cols-2 gap-4">
+
+<div class="grid grid-cols-2 gap-4 mb-8">
   <div class="bg-blue-50 rounded-lg p-4">
     <strong>Client</strong><br>
     Myself

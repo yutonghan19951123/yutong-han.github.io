@@ -1,23 +1,20 @@
 <script setup lang="ts">
-import type { IndexCollectionItem } from '@nuxt/content'
+  import type { IndexCollectionItem } from '@nuxt/content'
 
-defineProps<{
-  page: IndexCollectionItem
-}>()
+  defineProps<{
+    page: IndexCollectionItem
+  }>()
 </script>
 
 <template>
-  <UPageSection
-    :title="page.about.title"
-    :description="page.about.description"
-    :ui="{
-      container: '!p-0',
-      title: 'text-left text-xl sm:text-xl lg:text-2xl font-medium',
-      description: 'text-left mt-3 text-sm sm:text-md lg:text-sm text-muted'
-    }"
-  />
+  <div class="!p-0">
+    <h2 class="text-left text-xl sm:text-xl lg:text-2xl font-medium">
+      {{ page.about.title }}
+    </h2>
+    <p class="text-left mt-3 text-sm sm:text-md lg:text-sm text-muted">
+      {{ page.about.description }}
+    </p>
+  </div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

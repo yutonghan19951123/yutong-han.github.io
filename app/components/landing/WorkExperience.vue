@@ -1,21 +1,17 @@
 <script setup lang="ts">
-import type { IndexCollectionItem } from '@nuxt/content'
+  import type { IndexCollectionItem } from '@nuxt/content'
 
-defineProps<{
-  page: IndexCollectionItem
-}>()
+  defineProps<{
+    page: IndexCollectionItem
+  }>()
 </script>
 
 <template>
-  <UPageSection
-    :title="page.experience.title"
-    :ui="{
-      container: '!p-0 gap-4 sm:gap-4',
-      title: 'text-left text-xl sm:text-xl lg:text-2xl font-medium',
-      description: 'mt-2'
-    }"
-  >
-    <template #description>
+  <div class="!p-0 gap-4 sm:gap-4">
+    <h2 class="text-left text-xl sm:text-xl lg:text-2xl font-medium">
+      {{ page.experience.title }}
+    </h2>
+    <div class="mt-2">
       <div class="flex flex-col gap-2">
         <Motion
           v-for="(experience, index) in page.experience.items"
@@ -53,10 +49,8 @@ defineProps<{
           </ULink>
         </Motion>
       </div>
-    </template>
-  </UPageSection>
+    </div>
+  </div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

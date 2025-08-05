@@ -10,7 +10,8 @@ author:
     src: /img/yutong.jpg
     alt: Yutong Han
 ---
-<div class="grid grid-cols-2 gap-4">
+
+<div class="grid grid-cols-2 gap-4 mb-8">
   <div class="bg-blue-50 rounded-lg p-4">
     <strong>Client</strong><br>
     Caixin Media Company Ltd. 
@@ -44,7 +45,7 @@ I studied with Xiaoyin on how to superimpose the snow depth on the China map, ou
   <figcaption class="blog-img-caption">Left: idealright: realistic</figcaption>
 </figure>
 
-But before the end of this project, I encountered a very torturous bug, which was actually very simple, but at that time, I was alone in my hometown. No one can help me. 
+But before the end of this project, I encountered a very torturous bug, which was actually very simple, but at that time, I was alone in my hometown. No one can help me.
 
 And I couldn't find the answer by Google. So in that case, I "shout a lot" to vent my anger. My mother thought I was under huge pressure at work and told me to quit and go home to rely on her, haha~
 

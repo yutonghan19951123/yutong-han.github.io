@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/eslint',
     '@nuxt/image',
-    '@nuxt/ui-pro',
+    '@nuxt/ui',
     '@nuxt/content',
     '@vueuse/nuxt',
     'nuxt-og-image',
@@ -23,13 +23,7 @@ export default defineNuxtConfig({
 
   nitro: {
     prerender: {
-      routes: [
-        '/',
-        '/about',
-        '/blog',
-        '/projects',
-        '/speaking'
-      ],
+      routes: ['/', '/about', '/blog', '/projects', '/speaking'],
       crawlLinks: true
     }
   },

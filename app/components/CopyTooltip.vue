@@ -1,8 +1,8 @@
 <script setup lang="ts">
   interface Props {
-    'text': string
-    'copyText': string
-    'aria-label': string
+    text: string
+    copyText: string
+    ariaLabel: string
   }
 
   const props = defineProps<Props>()
@@ -12,7 +12,7 @@
 
   const _handleCopy = async () => {
     try {
-      await copyToClipboard(props.copyText, props['aria-label'] + ' copied!')
+      await copyToClipboard(props.copyText, props.ariaLabel + ' copied!')
       isCopied.value = true
       setTimeout(() => {
         isCopied.value = false

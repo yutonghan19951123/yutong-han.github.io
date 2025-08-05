@@ -10,7 +10,8 @@ author:
     src: /img/yutong.jpg
     alt: Yutong Han
 ---
-<div class="grid grid-cols-2 gap-4">
+
+<div class="grid grid-cols-2 gap-4 mb-8">
   <div class="bg-blue-50 rounded-lg p-4">
     <strong>Client</strong><br>
     Myself
@@ -21,7 +22,7 @@ author:
   </div>
 </div>
 
-This is first project I made in  **3D Animation** course last semester. The project is about the process of cleaning wastewater and the dangers of ocean outfalls, which means treated water pumping into the sea. One obvious impact is the decrease in the numbers and the size of bonefish.
+This is first project I made in **3D Animation** course last semester. The project is about the process of cleaning wastewater and the dangers of ocean outfalls, which means treated water pumping into the sea. One obvious impact is the decrease in the numbers and the size of bonefish.
 
 It's my first time to use Maya. It's a huge challenge for me to create such a complex thing, clarify, by Maya, let alone I drew all steps by Adobe Illustrator and searched a lot of papers related to wastewater. Luckily, with the help of professor Hiram, I successfully finished the project.
 

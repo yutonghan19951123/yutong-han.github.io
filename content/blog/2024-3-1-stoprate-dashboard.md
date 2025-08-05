@@ -10,7 +10,8 @@ author:
     src: /img/yutong.jpg
     alt: Yutong Han
 ---
-<div class="grid grid-cols-2 gap-4">
+
+<div class="grid grid-cols-2 gap-4 mb-8">
   <div class="bg-blue-50 rounded-lg p-4">
     <strong>Client</strong><br>
     Tranalytic Technology Co., Ltd.
@@ -49,7 +50,6 @@ Left Panel – Time-Distance Diagram:
 <figure class="blog-img-container">
   <img src="/img/projects/stop_dashboard/left.png" class="blog-img" alt="img" loading="lazy" />
 </figure>
-
 
 Lower Section: Visual simulation of intersections, signal states, and moving vehicles, accompanied by **traffic flow distribution charts** and **turning ratios** for each intersection.
 

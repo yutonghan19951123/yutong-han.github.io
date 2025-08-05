@@ -10,7 +10,8 @@ author:
     src: /img/yutong.jpg
     alt: Yutong Han
 ---
-<div class="grid grid-cols-2 gap-4">
+
+<div class="grid grid-cols-2 gap-4 mb-8">
   <div class="bg-blue-50 rounded-lg p-4">
     <strong>Client</strong><br>
     Tranalytic Technology Co., Ltd.
@@ -31,7 +32,7 @@ This project was a **time-sensitive independent development assignment** aimed a
 
 The game’s primary goal was to visually demonstrate **“greenwave” traffic coordination** to a non-technical audience, serving both as a **public awareness tool** and a **pre-sales demo** for potential clients. The concept also opened possibilities for future gamification of traffic signal management systems.
 
-## Gameplay 
+## Gameplay
 
 - Players act as **traffic signal coordinators**, dynamically dragging and adjusting greenwave timing.
 
@@ -44,7 +45,6 @@ The game’s primary goal was to visually demonstrate **“greenwave” traffic 
 - Challenge: Simulating vehicle movements **without backend APIs**, while ensuring realistic reactions to greenwave adjustments.
 
 - Solution: Re-engineered and extended an earlier simulation core written by my teammate (9 months prior), implementing:
-
   - Custom traffic flow physics in pure TypeScript.
   - Real-time signal-light state transitions and vehicle response animations.
   - Optimizations for smooth frame rates in a browser environment.
@@ -61,4 +61,3 @@ This project showcased my ability to rapidly prototype interactive simulations, 
   <img src="/img/projects/green_wave_game.png" class="blog-img" alt="img" loading="lazy" />
   <figcaption class="blog-img-caption">UI I drawed for <a href="https://ytsd.cc/games/greenwave/#/" target="_blank" class="text-blue-600">A Day as a Traﬃc Signal Timer</a></figcaption>
 </figure>
-
