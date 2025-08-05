@@ -1,0 +1,202 @@
+@import "tailwindcss";
+@import "@nuxt/ui-pro";
+
+@source "../../../content/**/*";
+
+@theme static {
+  --font-sans: 'Public Sans', sans-serif;
+  --font-serif: 'Instrument Serif', serif;
+}
+
+:root {
+  --ui-container: var(--container-4xl);
+
+
+  ::selection {
+    color: #282a30;
+    background-color: #c8c8c8;
+  }
+}
+
+.dark {
+  ::selection {
+    color: #ffffff;
+    background-color: #474747;
+  }
+}
+
+/* 博客正文样式 - 简化版本 */
+.blog-content {
+  @apply text-justify;
+}
+
+.blog-content p {
+  @apply text-justify leading-relaxed;
+}
+
+.blog-content h1,
+.blog-content h2,
+.blog-content h3,
+.blog-content h4,
+.blog-content h5,
+.blog-content h6 {
+  @apply text-left font-semibold;
+}
+
+.blog-content ul,
+.blog-content ol {
+  @apply text-left;
+}
+
+.blog-content blockquote {
+  @apply text-left italic;
+}
+
+.blog-content code,
+.blog-content pre {
+  @apply text-left;
+}
+
+/* Custom PDF iframe styles */
+.pdf-iframe {
+  @apply w-full rounded-xl shadow-2xl border border-gray-200/50;
+  @apply transition-all duration-300 ease-in-out;
+  @apply hover:shadow-2xl hover:border-gray-300;
+  @apply dark:border-gray-700 dark:hover:border-gray-600;
+}
+
+.pdf-container {
+  @apply my-8 p-6 bg-gradient-to-br from-gray-50 to-white;
+  @apply rounded-xl border border-gray-200/50;
+  @apply dark:from-gray-900 dark:to-gray-800 dark:border-gray-700;
+}
+
+.pdf-header {
+  @apply flex items-center justify-between mb-4;
+  @apply text-sm text-gray-600 dark:text-gray-400;
+}
+
+.pdf-title {
+  @apply text-lg font-semibold text-gray-900 dark:text-gray-100;
+  @apply mb-2;
+}
+
+/* Custom image styles */
+.img-responsive {
+  @apply w-full h-auto max-w-[640px] mx-auto;
+  @apply rounded-lg shadow-lg;
+  @apply transition-all duration-300 ease-in-out;
+  @apply hover:shadow-xl;
+}
+
+.img-full-width {
+  @apply w-full h-auto max-w-[640px];
+  @apply rounded-lg;
+}
+
+.img-centered {
+  @apply w-full h-auto max-w-[640px] mx-auto block;
+  @apply rounded-lg shadow-md;
+}
+
+/* 博客图片样式 - 最简洁的版本 */
+.blog-img {
+  @apply w-full h-auto max-w-[640px] mx-auto;
+  @apply rounded-lg shadow-lg;
+  @apply transition-all duration-300 ease-in-out;
+  @apply hover:shadow-xl hover:scale-[1.02];
+}
+
+/* 小尺寸图片样式 */
+.blog-img-small {
+  @apply w-full h-auto max-w-[400px] mx-auto;
+  @apply rounded-lg shadow-lg;
+  @apply transition-all duration-300 ease-in-out;
+  @apply hover:shadow-xl hover:scale-[1.02];
+}
+
+/* GIF图片特殊样式 - 避免hover效果影响动画 */
+.blog-img-gif {
+  @apply w-full h-auto max-w-[640px] mx-auto;
+  @apply rounded-lg shadow-lg;
+  @apply transition-all duration-300 ease-in-out;
+  @apply hover:shadow-xl;
+  /* 移除hover:scale效果，避免影响GIF动画 */
+}
+
+/* 小尺寸GIF图片样式 */
+.blog-img-gif-small {
+  @apply w-full h-auto max-w-[400px] mx-auto;
+  @apply rounded-lg shadow-lg;
+  @apply transition-all duration-300 ease-in-out;
+  @apply hover:shadow-xl;
+  /* 移除hover:scale效果，避免影响GIF动画 */
+}
+
+.blog-img-caption {
+  @apply w-full h-auto max-w-[680px] mx-auto;
+  @apply text-center text-sm text-gray-600 dark:text-gray-400;
+  @apply mt-2 italic;
+}
+
+.blog-img-container {
+  @apply my-8;
+}
+
+/* 响应式图片尺寸类 */
+.blog-img-xs {
+  @apply w-full h-auto max-w-[300px] mx-auto;
+  @apply rounded-lg shadow-lg;
+  @apply transition-all duration-300 ease-in-out;
+  @apply hover:shadow-xl hover:scale-[1.02];
+}
+
+.blog-img-sm {
+  @apply w-full h-auto max-w-[400px] mx-auto;
+  @apply rounded-lg shadow-lg;
+  @apply transition-all duration-300 ease-in-out;
+  @apply hover:shadow-xl hover:scale-[1.02];
+}
+
+.blog-img-md {
+  @apply w-full h-auto max-w-[500px] mx-auto;
+  @apply rounded-lg shadow-lg;
+  @apply transition-all duration-300 ease-in-out;
+  @apply hover:shadow-xl hover:scale-[1.02];
+}
+
+.blog-img-lg {
+  @apply w-full h-auto max-w-[640px] mx-auto;
+  @apply rounded-lg shadow-lg;
+  @apply transition-all duration-300 ease-in-out;
+  @apply hover:shadow-xl hover:scale-[1.02];
+}
+
+/* GIF响应式尺寸类 */
+.blog-img-gif-xs {
+  @apply w-full h-auto max-w-[300px] mx-auto;
+  @apply rounded-lg shadow-lg;
+  @apply transition-all duration-300 ease-in-out;
+  @apply hover:shadow-xl;
+}
+
+.blog-img-gif-sm {
+  @apply w-full h-auto max-w-[400px] mx-auto;
+  @apply rounded-lg shadow-lg;
+  @apply transition-all duration-300 ease-in-out;
+  @apply hover:shadow-xl;
+}
+
+.blog-img-gif-md {
+  @apply w-full h-auto max-w-[500px] mx-auto;
+  @apply rounded-lg shadow-lg;
+  @apply transition-all duration-300 ease-in-out;
+  @apply hover:shadow-xl;
+}
+
+.blog-img-gif-lg {
+  @apply w-full h-auto max-w-[640px] mx-auto;
+  @apply rounded-lg shadow-lg;
+  @apply transition-all duration-300 ease-in-out;
+  @apply hover:shadow-xl;
+}

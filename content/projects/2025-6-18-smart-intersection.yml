@@ -1,0 +1,6 @@
+title: Holographic Intersection Dashboard
+description: Designed and developed a high-performance intersection traﬃc visualization. Used native canvas for custom rendering and integrated WebAssembly to optimize frame interpolation.
+image: /img/smart_intersection.png
+url: "/blog/2025-6-18-smart-intersection"
+tags: ["Vue3 Composition", "WebAssembly", "Element-plus UI", "Adobe Illustrator", "UI & UX Design"]
+date: "2025-6"

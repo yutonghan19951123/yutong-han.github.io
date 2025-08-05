@@ -1,0 +1,6 @@
+title: Geospatial Data Visualization Workspace
+description: A highly decoupled, standalone workspace capable of stacking multiple data sources and supporting various types of geospatial visualizations
+image: /img/projects/dop-workspace/diff-radius.png
+url: "/blog/2025-2-2-data-operation-platform-workspace"
+tags: ["Vue3 Composition", "Element-plus UI", "Adobe Illustrator", "MapLibre.js"]
+date: "2025-2"

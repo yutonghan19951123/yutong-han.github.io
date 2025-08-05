@@ -1,0 +1,21 @@
+title: About Me
+description: Hey, I'm Yutong Han, a Designer & Developer. I enjoy telling a data-driven story through visualization. Loves data-viz, creative design, and end-to-end development.
+content: |
+  Over the past three years, I’ve led the design and development of complex geospatial data platforms and smart traffic dashboards that blend clarity, interactivity, and performance.
+
+  I specialize in building intuitive, data-driven experiences with tools like **Vue 3**, **Tailwind CSS**, **MapLibre**, **ECharts**, and **native canvas**, often serving as both product designer and visualization engineer. My work sits at the intersection of design and code—crafted with a deep understanding of urban systems, spatial data, and user needs.
+
+  ### My Design Philosophy
+
+  Good design tells a story—one rooted in user empathy and system clarity. Whether I’m prototyping a traffic game for the public or engineering a city-wide signal visualization, I aim to make complexity feel effortless.
+
+  ### What Drives Me
+
+  I’m energized by technical challenges and design puzzles—especially when they help real people make sense of data. Seeing a congested road unravel on a screen because of a user’s interaction? That’s the magic I strive for.
+
+  Thanks for stopping by. Feel free to browse my [projects](/projects) or [get in touch](/about#contact) if you'd like to collaborate!
+images:
+  - src: /img/cat.jpg
+    alt: My cat, my husband, and me
+  - src: /img/wedding.jpg
+    alt: My wedding
