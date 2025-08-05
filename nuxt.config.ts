@@ -18,8 +18,8 @@ export default defineNuxtConfig({
   },
 
   app: {
-    baseURL: '/yutong-han.github.io/',
-    buildAssetsDir: '/yutong-han.github.io/_nuxt/'
+    baseURL: '/',
+    buildAssetsDir: '/_nuxt/'
   },
 
   css: ['~/assets/css/main.css'],
