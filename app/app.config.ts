@@ -1,8 +1,8 @@
 export default defineAppConfig({
   global: {
-    picture: {
-      dark: '/public/img/yutong.jpg',
-      light: '/public/img/yutong.jpg',
+          picture: {
+        dark: '/yutong-han.github.io/public/img/yutong.jpg',
+        light: '/yutong-han.github.io/public/img/yutong.jpg',
       alt: 'My profile picture'
     },
     meetingLink: 'https://cal.com/',

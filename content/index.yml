@@ -9,23 +9,23 @@ hero:
       to: /about#contact
       color: 'neutral'
   images:
-    - src: /public/img/edge_speed.png
+    - src: /yutong-han.github.io/public/img/edge_speed.png
       alt: edge speed
-    - src: /public/img/heatmap.jpg
+    - src: /yutong-han.github.io/public/img/heatmap.jpg
       alt: heatmap
-    - src: /public/img/smart_intersection.png
+    - src: /yutong-han.github.io/public/img/smart_intersection.png
       alt: smart intersection
-    - src: /public/img/snow.png
+    - src: /yutong-han.github.io/public/img/snow.png
       alt: snow sport
-    - src: /public/img/traffic_light_game.png
+    - src: /yutong-han.github.io/public/img/traffic_light_game.png
       alt: traffic light game
-    - src: /public/img/winter_olympic.gif
+    - src: /yutong-han.github.io/public/img/winter_olympic.gif
       alt: winter olympic
-    - src: /public/img/from_ancient_cover.png
+    - src: /yutong-han.github.io/public/img/from_ancient_cover.png
       alt: blue jeans
-    - src: /public/img/clarify.png
+    - src: /yutong-han.github.io/public/img/clarify.png
       alt: wastewater
-    - src: /public/img/invest_game.gif
+    - src: /yutong-han.github.io/public/img/invest_game.gif
       alt: invest game
 about:
   title: 'About Me'

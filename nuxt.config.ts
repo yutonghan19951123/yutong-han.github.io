@@ -17,13 +17,14 @@ export default defineNuxtConfig({
     enabled: true
   },
 
+  app: {
+    baseURL: '/yutong-han.github.io/',
+    buildAssetsDir: '/yutong-han.github.io/_nuxt/'
+  },
+
   css: ['~/assets/css/main.css'],
 
   compatibilityDate: '2024-11-01',
-
-  app: {
-    buildAssetsDir: '/_nuxt/'
-  },
 
   nitro: {
     prerender: {
