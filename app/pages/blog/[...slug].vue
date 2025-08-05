@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import type { ContentNavigationItem } from '@nuxt/content'
 import { findPageBreadcrumb, mapContentNavigation } from '#ui-pro/utils/content'
+import { defineOgImage, defineOgImageComponent } from '#imports'
 
 const route = useRoute()
 
