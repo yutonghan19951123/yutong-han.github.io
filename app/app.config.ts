@@ -30,29 +30,29 @@ export default defineAppConfig({
     colorMode: false,
     links: [
       {
-        icon: 'i-simple-icons-gmail',
-        to: '',
-        account: 'hanyutong19951123@gmail.com',
-        target: '_blank',
+        'icon': 'i-simple-icons-gmail',
+        'to': '',
+        'account': 'hanyutong19951123@gmail.com',
+        'target': '_blank',
         'aria-label': 'Gmail address'
       },
       {
-        icon: 'i-el:linkedin',
-        to: 'https://www.linkedin.com/in/yutonghan1123',
-        target: '_blank',
+        'icon': 'i-el:linkedin',
+        'to': 'https://www.linkedin.com/in/yutonghan1123',
+        'target': '_blank',
         'aria-label': 'Linkedin address'
       },
       {
-        icon: 'i-simple-icons-wechat',
-        to: '',
-        account: 'hanyutong19951123',
-        target: '',
+        'icon': 'i-simple-icons-wechat',
+        'to': '',
+        'account': 'hanyutong19951123',
+        'target': '',
         'aria-label': 'WeChat ID'
       },
       {
-        icon: 'i-simple-icons-github',
-        to: 'https://github.com/yutonghan19951123',
-        target: '_blank',
+        'icon': 'i-simple-icons-github',
+        'to': 'https://github.com/yutonghan19951123',
+        'target': '_blank',
         'aria-label': 'GitHub address'
       }
     ]

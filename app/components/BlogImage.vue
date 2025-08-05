@@ -32,5 +32,5 @@ const imageClass = computed(() => {
   }
   return `blog-img-${props.size}`
 })
-</script> 
+</script>
 

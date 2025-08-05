@@ -1,7 +1,7 @@
 <script setup lang="ts">
   interface Props {
-    text: string
-    copyText: string
+    'text': string
+    'copyText': string
     'aria-label': string
   }
 

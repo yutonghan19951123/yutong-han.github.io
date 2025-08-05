@@ -20,7 +20,7 @@ export default defineNuxtConfig({
 
   // Static site generation for GitHub Pages
   ssr: false,
-  
+
   nitro: {
     prerender: {
       routes: [

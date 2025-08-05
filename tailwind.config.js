@@ -10,9 +10,9 @@ export default {
     './nuxt.config.{js,ts}'
   ],
   theme: {
-    extend: {},
+    extend: {}
   },
   plugins: [
-    require('@tailwindcss/typography'),
-  ],
+    require('@tailwindcss/typography')
+  ]
 } 
