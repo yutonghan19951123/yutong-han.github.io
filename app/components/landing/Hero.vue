@@ -38,7 +38,7 @@
           :alt="global.picture?.alt"
           class="size-22 ring ring-default ring-offset-3 ring-offset-(--ui-bg) rounded-full"
           style="object-fit: cover"
-        />
+        >
       </Motion>
     </template>
 
@@ -101,7 +101,10 @@
           delay: 0.5
         }"
       >
-        <div v-if="page.hero.links" class="flex items-center gap-2">
+        <div
+v-if="page.hero.links"
+class="flex items-center gap-2"
+>
           <UButton v-bind="page.hero.links[0]" />
         </div>
       </Motion>
@@ -158,7 +161,7 @@
           class="rounded-lg"
           :class="index % 2 === 0 ? '-rotate-2' : 'rotate-2'"
           v-bind="img"
-        />
+        >
       </Motion>
     </UPageMarquee>
   </UPageHero>

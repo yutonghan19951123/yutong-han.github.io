@@ -5,8 +5,11 @@
       :alt="alt"
       :class="imageClass"
       loading="lazy"
-    />
-    <figcaption v-if="caption" class="blog-img-caption">
+    >
+    <figcaption
+v-if="caption"
+class="blog-img-caption"
+>
       {{ caption }}
     </figcaption>
   </figure>
@@ -33,4 +36,3 @@ const imageClass = computed(() => {
   return `blog-img-${props.size}`
 })
 </script>
-

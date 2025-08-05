@@ -48,7 +48,7 @@ defineProps<{
                 :src="experience.company.logo"
                 :alt="experience.company.name + ' logo'"
                 class="h-5 w-5 inline-block align-middle"
-              />
+              >
             </div>
           </ULink>
         </Motion>

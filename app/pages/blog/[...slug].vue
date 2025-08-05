@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import type { ContentNavigationItem } from '@nuxt/content'
 import { findPageBreadcrumb, mapContentNavigation } from '#ui-pro/utils/content'
+
 const route = useRoute()
 
 const { data: page } = await useAsyncData(route.path, () =>
@@ -16,7 +17,7 @@ const { data: surround } = await useAsyncData(`${route.path}-surround`, () =>
 const navigation = inject<Ref<ContentNavigationItem[]>>('navigation', ref([]))
 const blogNavigation = computed(() => navigation.value.find(item => item.path === '/blog')?.children || [])
 
-const breadcrumb = computed(() => mapContentNavigation(findPageBreadcrumb(blogNavigation?.value, page.value)).map(({ icon, ...link }) => link))
+const _breadcrumb = computed(() => mapContentNavigation(findPageBreadcrumb(blogNavigation?.value, page.value)).map(({ icon, ...link }) => link))
 
 const title = page.value?.seo?.title || page.value?.title
 const description = page.value?.seo?.description || page.value?.description

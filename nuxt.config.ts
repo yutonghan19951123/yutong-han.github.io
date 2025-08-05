@@ -10,6 +10,9 @@ export default defineNuxtConfig({
     'motion-v/nuxt'
   ],
 
+  // Static site generation for GitHub Pages
+  ssr: false,
+
   devtools: {
     enabled: true
   },
@@ -38,8 +41,5 @@ export default defineNuxtConfig({
         braceStyle: '1tbs'
       }
     }
-  },
-
-  // Static site generation for GitHub Pages
-  ssr: false
+  }
 })

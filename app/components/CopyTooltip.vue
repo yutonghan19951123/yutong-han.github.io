@@ -37,8 +37,8 @@
     }"
     @update:open="isOpen = $event"
   >
-    <div 
-      @mouseenter="isOpen = true" 
+    <div
+      @mouseenter="isOpen = true"
       @mouseleave="isOpen = false"
     >
       <slot />
