@@ -18,9 +18,6 @@ export default defineNuxtConfig({
 
   compatibilityDate: '2024-11-01',
 
-  // Static site generation for GitHub Pages
-  ssr: false,
-
   nitro: {
     prerender: {
       routes: [
@@ -41,5 +38,8 @@ export default defineNuxtConfig({
         braceStyle: '1tbs'
       }
     }
-  }
+  },
+
+  // Static site generation for GitHub Pages
+  ssr: false
 })
