@@ -9,23 +9,23 @@ hero:
       to: /about#contact
       color: 'neutral'
   images:
-    - src: /img/edge_speed.png
+    - src: /public/img/edge_speed.png
       alt: edge speed
-    - src: /img/heatmap.jpg
+    - src: /public/img/heatmap.jpg
       alt: heatmap
-    - src: /img/smart_intersection.png
+    - src: /public/img/smart_intersection.png
       alt: smart intersection
-    - src: /img/snow.png
+    - src: /public/img/snow.png
       alt: snow sport
-    - src: /img/traffic_light_game.png
+    - src: /public/img/traffic_light_game.png
       alt: traffic light game
-    - src: /img/winter_olympic.gif
+    - src: /public/img/winter_olympic.gif
       alt: winter olympic
-    - src: /img/from_ancient_cover.png
+    - src: /public/img/from_ancient_cover.png
       alt: blue jeans
-    - src: /img/clarify.png
+    - src: /public/img/clarify.png
       alt: wastewater
-    - src: /img/invest_game.gif
+    - src: /public/img/invest_game.gif
       alt: invest game
 about:
   title: 'About Me'
