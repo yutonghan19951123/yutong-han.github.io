@@ -84,10 +84,7 @@
           class="inline-flex items-center gap-2"
           @click="openResume"
         >
-          <UIcon
-name="i-lucide-file-text"
-class="w-5 h-5"
-/>
+          <UIcon name="i-lucide-file-text" class="w-5 h-5" />
           View Resume
         </UButton>
       </div>
@@ -95,7 +92,7 @@ class="w-5 h-5"
         :src="global.picture?.light"
         :alt="global.picture?.alt"
         class="sm:rotate-4 size-36 rounded-lg ring ring-default ring-offset-3 ring-offset-(--ui-bg)"
-      >
+      />
     </UPageHero>
 
     <UPageSection
@@ -116,10 +113,7 @@ class="w-5 h-5"
         />
       </div>
 
-      <MDC
-:value="page.content"
-unwrap="p"
-/>
+      <MDC :value="page.content" unwrap="p" />
 
       <div
         class="flex flex-row justify-center items-center py-10 space-x-[-2rem]"
