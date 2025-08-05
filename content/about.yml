@@ -15,7 +15,7 @@ content: |
 
   Thanks for stopping by. Feel free to browse my [projects](/projects) or [get in touch](/about#contact) if you'd like to collaborate!
 images:
-  - src: /public/img/cat.jpg
+  - src: /img/cat.jpg
     alt: My cat, my husband, and me
-  - src: /public/img/wedding.jpg
+  - src: /img/wedding.jpg
     alt: My wedding

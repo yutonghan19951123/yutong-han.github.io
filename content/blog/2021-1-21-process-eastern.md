@@ -7,7 +7,7 @@ minRead: 10
 author:
   name: Yutong Han
   avatar:
-    src: /public/img/yutong.jpg
+    src: /img/yutong.jpg
     alt: Yutong Han
 ---
 
