@@ -22,7 +22,6 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
 
   app: {
-    baseURL: '/yutong-han.github.io/',
     buildAssetsDir: '/_nuxt/'
   },
 
