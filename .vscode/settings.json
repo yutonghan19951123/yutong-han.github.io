@@ -5,8 +5,8 @@
   "editor.insertSpaces": true,
   "editor.detectIndentation": false,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
-    "source.fixAll.htmlhint": true
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.htmlhint": "explicit"
   },
   "htmlhint.options": {
     "tagname-lowercase": true,
