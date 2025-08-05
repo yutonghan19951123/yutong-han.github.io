@@ -11,7 +11,7 @@ export default defineNuxtConfig({
   ],
 
   // Static site generation for GitHub Pages
-  ssr: true,
+  ssr: false,
 
   devtools: {
     enabled: true
