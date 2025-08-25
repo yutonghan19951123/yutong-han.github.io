@@ -30,11 +30,11 @@
             <div class="mt-8 flex justify-center">
               <div class="flex flex-col items-center">
                 <img
-                  v-if="item.author?.avatar"
-                  :src="item.author.avatar"
+                  v-if="item.author?.avatar?.src"
+                  :src="item.author.avatar.src"
                   :alt="item.author?.name"
                   class="w-16 h-16 rounded-full mb-3"
-                >
+                />
                 <div
                   v-if="item.author?.name"
                   class="text-lg font-medium text-gray-900 dark:text-white"
