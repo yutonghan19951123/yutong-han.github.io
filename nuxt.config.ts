@@ -9,7 +9,7 @@ export default defineNuxtConfig({
     'motion-v/nuxt'
   ],
 
-  // Static site generation for GitHub Pages
+  // Keep SSR false for client-side rendering
   ssr: false,
 
   devtools: {
@@ -18,7 +18,10 @@ export default defineNuxtConfig({
 
   app: {
     baseURL: '/',
-    buildAssetsDir: '/_nuxt/'
+    buildAssetsDir: '/_nuxt/',
+    head: {
+      link: []
+    }
   },
 
   css: ['~/assets/css/main.css'],
