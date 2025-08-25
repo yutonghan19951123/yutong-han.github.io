@@ -9,8 +9,9 @@ export default defineNuxtConfig({
     'motion-v/nuxt'
   ],
 
-  // Keep SSR false for client-side rendering
-  ssr: false,
+  // Use SSR only in production for static site generation
+  // In development, use CSR for faster development experience
+  ssr: process.env.NODE_ENV === 'production',
 
   devtools: {
     enabled: true
@@ -26,12 +27,19 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/main.css'],
 
+  // Content module configuration for better static generation
+  content: {
+    // Enable static site generation for content
+  },
+
   compatibilityDate: '2024-11-01',
 
   nitro: {
     prerender: {
       routes: ['/', '/about', '/blog', '/projects', '/speaking'],
-      crawlLinks: true
+      crawlLinks: true,
+      // Ensure all blog posts are pre-rendered
+      ignore: ['/api/**']
     }
   },
 

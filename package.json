@@ -11,7 +11,8 @@
     "lint": "eslint . --fix",
     "lint:fix": "eslint . --fix",
     "typecheck": "nuxt typecheck",
-    "build:static": "nuxt generate"
+    "build:static": "NODE_ENV=production nuxt generate",
+    "build:gh-pages": "NODE_ENV=production nuxt generate"
   },
   "dependencies": {
     "@iconify-json/lucide": "^1.2.57",
